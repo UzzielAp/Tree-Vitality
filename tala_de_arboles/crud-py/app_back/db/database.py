@@ -5,6 +5,8 @@ from mysql.connector import Error
 
 def get_db_connection():
     """Conecta a la base de datos y retorna la conexión."""
+
+    
     connection = None
     try:
         connection = mysql.connector.connect(
