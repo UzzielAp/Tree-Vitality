@@ -1,0 +1,9 @@
+.background {
+    background: url('https://i.pinimg.com/originals/83/1a/98/831a9864f42d7be0f734327cfb44f7b1.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    opacity: 0.9;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

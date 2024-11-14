@@ -1,0 +1,9 @@
+.background {
+    background: url('https://mlmervlhka9p.i.optimole.com/w:auto/h:auto/q:mauto/f:best/http://coleys.net/wp-content/uploads/2023/07/Panama-City-view-from-Metropolitan-Natural-Park-5-scaled.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    opacity: 0.9;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
