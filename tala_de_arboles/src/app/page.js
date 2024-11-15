@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.background}>
     <div className="flex flex-col min-h-screen">
       {/* Sección de bienvenida */}
-      <main className="flex-grow flex flex-col items-center justify-center text-center p-8 mt-8">
+      <main className="flex-grow flex flex-col items-center justify-center text-center p-8 mt-24">
         <h2 className="text-6xl font-bold text-blue-600">Bienvenido a Tree Vitality</h2><br></br>
         <p className="mt-4 text-4xl text-white font-bold">Ofrecemos las herramientas para hacer de nuestra naturaleza un paisaje mas bonito</p>
       </main>
