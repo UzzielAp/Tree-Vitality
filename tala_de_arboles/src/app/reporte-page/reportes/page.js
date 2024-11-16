@@ -9,10 +9,11 @@ const ReportesPage = () => {
         // Función para obtener los reportes desde el backend
         const fetchReportes = async () => {
             try {
-                const response = await fetch('https://crud-py-production.up.railway.app/reporte');
+                const response = await fetch('https://crud-py-production.up.railway.app/reporte/');
                 const data = await response.json();
+                
                 if (data.reportes) {
-                    setReportes(data.reportes);
+                    setReportes(data.reportes); // Asumiendo que setReportes es tu estado
                 } else {
                     console.log("No se encontraron reportes");
                 }
