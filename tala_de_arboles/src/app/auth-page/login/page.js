@@ -19,7 +19,7 @@ const LoginPage = () => {
 
     const handleLogin = async (email, password) => {
         try {
-            const response = await fetch('http://localhost:8000/login/', {
+            const response = await fetch('https://crud-py-production.up.railway.app/login/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password }),
