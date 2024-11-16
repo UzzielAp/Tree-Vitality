@@ -30,7 +30,7 @@ const ActividadesPage = () => {
         }
 
         try {
-            const response = await fetch('http://127.0.0.1:8000/inscripcion_actividad/', {
+            const response = await fetch('https://crud-py-production.up.railway.app/inscripcion_actividad/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

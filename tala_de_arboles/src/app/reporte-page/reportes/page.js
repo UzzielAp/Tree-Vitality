@@ -9,7 +9,7 @@ const ReportesPage = () => {
         // Función para obtener los reportes desde el backend
         const fetchReportes = async () => {
             try {
-                const response = await fetch('http://127.0.0.1:8000/reporte');
+                const response = await fetch('https://crud-py-production.up.railway.app/reporte');
                 const data = await response.json();
                 if (data.reportes) {
                     setReportes(data.reportes);
